@@ -10,7 +10,8 @@ const Header = () => {
         >
             <div className="flex items-center w-full md:2/3">
                 <Link href={"/"}
-                      className={"font-black text-[#F27405]"}>HOTELS</Link>
+                      //*color in class is configured in tailwind.config
+                      className={"font-black text-tertiary-light"}>HOTELS</Link>
                 <ul className="flex items-center ml-5"></ul>
                 <li className={"flex items-center"}><Link href={"/auth"}>
                     <FaUserCircle className={'cursor-pointer'}/>

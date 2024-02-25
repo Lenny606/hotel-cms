@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "/web/hotel-cms/node_modules/.bin/next dev",
+    "build": "/web/hotel-cms/node_modules/.bin/next build",
+    "start": "/web/hotel-cms/node_modules/.bin/next start",
+    "lint": "/web/hotel-cms/node_modules/.bin/next lint"
   },
   "dependencies": {
-    "next": "14.0.4",
+    "@sanity/vision": "^3.30.0",
+    "next": "^14.0.4",
+    "next-sanity": "^8.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.12.0"
-
+    "react-icons": "^4.12.0",
+    "sanity": "^3.30.0"
   },
   "devDependencies": {
     "@types/node": "^20",
